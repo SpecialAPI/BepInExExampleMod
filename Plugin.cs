@@ -7,9 +7,9 @@ using UnityEngine;
 
 namespace Mod
 {
-    [BepInDependency("etgmodding.etg.mtgapi")]
+    [BepInDependency(ETGModMainBehaviour.GUID)]
     [BepInPlugin(GUID, NAME, VERSION)]
-    public class Module : BaseUnityPlugin
+    public class Plugin : BaseUnityPlugin
     {
         public const string GUID = "creator.etg.modname";
         public const string NAME = "MOD NAME";
